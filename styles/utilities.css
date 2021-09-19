@@ -1,0 +1,96 @@
+/* ------------- utilities -------------- */
+/* utilities images */
+.transform-image-desktop,.audience-image-desktop{
+display: none;
+}
+.transform-image,.audience-image{
+width: 100vw;
+height: 390px;
+}
+/* utilities text */
+.transform-text,.audience-text{
+ display:flex;
+ 
+ flex-direction: column;
+ padding: 35px;
+ height: 440px;
+ text-align: center;
+}
+/* utilities heading */
+.transform-heading,.audience-heading{
+ font-family: 'Fraunces', serif;
+ font-size: 2rem;
+ padding: 1rem;
+ padding-bottom: .5rem;
+  color: black !important;
+
+}
+/* utilities description */
+.transform-desc,.audience-desc{
+ padding: .5rem;
+ line-height: 25px;
+}
+/* learn more links */
+
+.learn-more{
+ margin-top: 10px;
+ font-family: 'Fraunces', serif;
+ color: black !important;
+ text-decoration: none;
+ line-height:10px;
+}
+
+/* underline for learn more links */
+
+.learn-more::after{
+ content: "";
+ background: rgb(252, 252, 182);
+ display: block;
+ width: 110px;
+ height: 10px;
+ margin: 0 auto;
+ border-radius: 1rem;
+ transition: .5s background;
+}
+/* underLine hover effect for read more */
+.transform-text>.learn-more:hover::after{
+ background: #FED501;
+}
+.audience-text>.learn-more:hover::after{
+ background: #E94F45;
+}
+/* graphic design section and photography section */
+.graphic-design-section{
+  background: url(./backgrounds/image-graphic-design.jpg) no-repeat;
+
+}
+.photography-section{
+ background: url(./backgrounds/image-photography.jpg) no-repeat;
+}
+.graphic-design-section,.photography-section{
+ height: 500px;
+ background-position: top center;
+ background-size:cover;
+ object-fit: cover;
+ display:flex;
+ text-align: center;
+ flex-direction: column;
+ align-items: center;
+ justify-content: flex-end;
+}
+/* background-color of graphic design section */
+
+/* text in graphics section and photography section */
+.photography-heading,.photography-desc,.graphic-heading,.graphic-desc{
+  color: rgba(0, 0, 0, 0.561);
+}
+.photography-desc , .graphic-desc{
+  padding: 20px 10px;
+  margin-bottom: 30px;
+}
+.photography-heading,.graphic-heading{
+  font-family: 'Fraunces', serif;
+  font-size: 30px;
+}
+
+/* ------------- utilities end -------------- */

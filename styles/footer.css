@@ -1,0 +1,38 @@
+/* ------------- Footer -------------- */
+/* footer generals */
+footer{
+ background: hsl(168, 38%, 53%);;
+ color: hsl(168, 34%, 41%);
+ text-align: center;
+ padding: 4rem 0;
+ padding-bottom: 1rem;
+}
+/* footer links container */
+.footer-links{
+ display: flex;
+ justify-content: space-evenly;
+ list-style: none;
+}
+/* footer links */
+.footer-link>a{
+ color: white;
+ text-decoration: none;
+ color: hsl(168, 34%, 41%);
+}
+.footer-link>a:hover{
+ color: white;
+}
+/* footer logo */
+.footer-logo{
+ margin-bottom: 2rem;
+  color: hsl(168, 34%, 41%);
+}
+/* social media container */
+.social-icons {
+ margin-top: 2rem;
+}
+/* single social icon */
+.social-icon{
+ margin: 2rem 1rem;
+}
+/* ------------- Footer end -------------- */

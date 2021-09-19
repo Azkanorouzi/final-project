@@ -1,0 +1,26 @@
+/* ------------- default and generals -------------- */
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-weight: 600;
+ font-family: 'Barlow', sans-serif;
+ /* font-family: 'Fraunces', serif; */
+ font-size: 18px;
+ color: #898795;
+}
+body{
+ min-height: 100vh;
+ min-width: 100vw !important;
+ background-color: white;
+}
+/* prevent from horizontal scroll bar causing by menu */
+main{
+ width: 100%;
+  overflow-x: hidden;
+}
+/* smooth scrolling */
+html{
+ scroll-behavior: smooth;
+}
+/* ------------- end -------------- */

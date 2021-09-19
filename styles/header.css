@@ -1,0 +1,46 @@
+/*------------- header styles ------------- */
+ /* header generals */
+header{
+ height: 500px;
+ text-align:center;
+ position: relative;
+  background: #3EBEFF;
+  z-index: -2;
+}
+
+.header-title{
+ font-size: 45px;
+ font-family: 'Fraunces', serif;
+ color: #FEFDFC;
+ text-transform: uppercase;
+}
+/* header images */
+.header-image-desktop {
+  display: none;
+}
+.header-image{
+ width: 100%;
+ position: absolute;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ z-index: -1;
+}
+/* arrow down */
+.arrow-down{
+  z-index: 10;
+  margin-top: 20px;
+  animation: arrow-down alternate;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+
+}
+/* arrow down animation */
+@keyframes arrow-down{
+ from { 
+  margin-top: 20px;
+ }
+ to { 
+  margin-top: 100px;
+ }
+}

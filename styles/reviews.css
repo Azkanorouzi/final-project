@@ -1,0 +1,44 @@
+/* ------------- reviews -------------- */
+/* review container */
+.review-section{
+margin-bottom: 5rem;
+}
+/* main heading */
+.review-heading{
+text-align: center;
+padding: 2rem 0;
+
+display: block;
+font-family: 'Fraunces', serif;
+letter-spacing:5px;
+text-transform: uppercase;
+}
+/* reviews generals */
+.review{
+ background: rgb(240, 239, 239);
+ text-align: center;
+ padding: 2rem 1.5rem;
+ margin: 0 20px;
+  margin-bottom: 20px;
+}
+/* review images */
+.user-image{
+ border-radius: 50%;
+ width: 4rem;
+ margin-bottom: 1rem;
+}
+/* User name */
+.review-user-name{
+ color: black;
+ font-family: 'Fraunces', serif;
+ margin: 1rem 0;
+ margin-bottom: 0;
+ display: inline-block;
+}
+/* reviewer's job */
+.review-user-job{
+ font-size: .7rem;
+ margin-top: .5rem;
+ opacity: .6;
+}
+/* ------------- reviews end -------------- */

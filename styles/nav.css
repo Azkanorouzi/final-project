@@ -1,0 +1,57 @@
+/* nav bar styles */
+nav {
+ background: #3EBEFF;
+ width: 100%;
+ padding: 40px 20px;
+ display: flex;
+ justify-content: space-between;
+ position: relative;
+}
+/* ------------ nav links and toggle ------------- */
+.nav-links{
+ position: absolute;
+ /* ❗ prevent nav links to be opened */
+ right: -100%;
+ transition: .5s;
+ top: 120px;
+ width: 80%;
+ text-align: center;
+ background: white;
+ padding: 40px 20px;
+ list-style:none;
+ line-height: 40px;
+}
+.nav-link>a{
+ text-decoration: none;
+ transition:.3s;
+}
+.nav-link>a:hover{
+background: #FED501;
+color:black;
+font-family: 'Fraunces', serif;
+padding: 10px;
+border-radius:1rem;
+}
+/* ❗ decoration for nav links */
+.nav-links-triangle{
+ position: absolute;
+ top: 80px;
+ right: -100vw;
+ width: 0;
+ height: 0;
+ border-left: 25px solid transparent;
+ transition: .5s;
+	border-bottom: 50px solid white;
+}
+/* ❗ i'll use js to add this class to the list element whenever toggle btn clicked */
+.nav-links-open{
+right: 10% !important;
+}
+.toggle-btn{
+ cursor: pointer;
+ transition: .5s;
+}
+.rotate-toggle-btn{
+ transform: rotate(90deg);
+}
+/* ------------ nav links and toggle end ------------- */

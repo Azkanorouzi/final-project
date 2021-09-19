@@ -1,0 +1,34 @@
+/* `````````````` medium screen devices `````````````` */
+@media screen and (min-width: 768px) {
+ /*--------- header --------- */
+ .header-image-mobile{
+  display:none;
+ }
+ .header-image-desktop{
+  display:inline-block;
+ }
+
+ /*--------- utilities --------- */
+ .transform-image-desktop,.audience-image-desktop{
+  display:inline-block;
+ }
+  .transform-image-mobile,.audience-image-mobile{
+  display:none;
+ }
+ /* --------- Graphic design and photography section --------- */
+ .photography-section{
+  background: url('backgrounds/image-photography.jpg') no-repeat;
+  background-size: cover;
+ }
+ .graphic-design-section{
+  background: url('backgrounds/image-graphic-design.jpg') no-repeat;
+  background-size: cover;
+ }
+ /*--------- image gallery --------- */
+ .gallery-image-desktop{
+  display: inline-block;
+ }
+ .gallery-image-mobile{
+  display: none;
+ }
+}

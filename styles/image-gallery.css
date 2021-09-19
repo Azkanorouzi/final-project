@@ -1,0 +1,14 @@
+/* ------------- gallery -------------- */
+/* ❗ gallery container */
+.gallery{
+ display: grid;
+ grid-template-columns: 50vw 50vw;
+}
+/* images in gallery container */
+.gallery-image{
+width: 100%;
+}
+.gallery-image-desktop{
+ display: none;
+}
+/* ------------- gallery end -------------- */
