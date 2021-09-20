@@ -1,0 +1,22 @@
+{
+  "name": "final-project",
+  "version": "1.0.0",
+  "description": "packages ussed for completing this project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Azkanorouzi/final-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Azkanorouzi/final-project/issues"
+  },
+  "homepage": "https://github.com/Azkanorouzi/final-project#readme",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
