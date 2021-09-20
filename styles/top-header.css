@@ -1,45 +1,47 @@
 /* top header styles */
-.top-header{
- height:50px;
- width: 100%;
- background-color:#00a2e8 ;
- display: flex;
- justify-content: space-around;
- color: white;
+.top-header {
+  height: 50px;
+  width: 100%;
+  background-color: #00a2e8;
+  display: flex;
+  justify-content: space-around;
+  color: white;
 }
 
 /* contact box */
-.email-container,.cell-container{
- display: flex;
+.email-container,
+.cell-container {
+  display: flex;
 }
-.contact-box{
- display: flex;
- align-items: center;
+.contact-box {
+  display: flex;
+  align-items: center;
 }
-.cell-icon,.email-icon{
- height: 20px;
- margin: 0 1rem;
+.cell-icon,
+.email-icon {
+  height: 20px;
+  margin: 0 1rem;
 }
-.cell-container{
- margin: 0 2rem;
+.cell-container {
+  margin: 0 2rem;
 }
-.topHeader-links{
- display: flex;
- align-items: center;
- list-style: none;
- margin-left: 100px;
+.topHeader-links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-left: 100px;
 }
-.topHeader-links>li:nth-of-type(4){
- margin-left: .5rem;
+.topHeader-links > li:nth-of-type(4) {
+  margin-left: 0.5rem;
 }
-.topHeader-links>li:nth-of-type(3){
- margin-right: 1.5rem;
+.topHeader-links > li:nth-of-type(3) {
+  margin-right: 1.5rem;
 }
-.topHeader-link{
- margin: 0 1rem;
+.topHeader-link {
+  margin: 0 1rem;
 }
-.topHeader-link:hover{
- color: #0f0101;
- cursor: pointer;
+.topHeader-link:hover {
+  color: #0f0101;
+  cursor: pointer;
 }
 /* ------------ nav links and toggle end ------------- */

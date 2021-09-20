@@ -1,164 +1,414 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
-    <!-- css styles -->
-    <link rel="stylesheet" href="./styles/style.css" />
-    <title>Frontend Mentor | Sunnyside agency landing page</title>
-    <script src="./app.js" defer></script>
-    <!-- font awesome icons -->
-    <script
-      src="https://kit.fontawesome.com/5f6b342d3b.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-  <body>
-    <!-- ******** content start ******** -->
-    <main>
-        <!--
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <!-- css styles -->
+  <link rel="stylesheet" href="./styles/style.css" />
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+  <script src="./app.js" defer></script>
+  <!-- font awesome icons -->
+  <script src="https://kit.fontawesome.com/5f6b342d3b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- ******** content start ******** -->
+  <main>
+    <!--
       
       ================================================
                           top header 
       ================================================-->
-        <section class="top-header">
-          <!-- -------------- contact box -------------- -->
-          <div class="contact-box">
-            <!-- cell number -->
-            <div class="cell-container">
-              <img src="./icons/call.png" alt="" class="cell-icon" />
-              <p class="cell-number">123-123456789</p>
-            </div>
-            <!-- email -->
-            <div class="email-container">
-              <img src="./icons/email.png" alt="" class="email-icon" />
-              <p class="email-address">info@gmail.com</p>
-            </div>
-          </div>
-          <!-- -------------- contact box end-------------- -->
+    <section class="top-header">
+      <!-- -------------- contact box -------------- -->
+      <div class="contact-box">
+        <!-- cell number -->
+        <div class="cell-container">
+          <img src="./icons/call.png" alt="" class="cell-icon" />
+          <p class="cell-number">123-123456789</p>
+        </div>
+        <!-- email -->
+        <div class="email-container">
+          <img src="./icons/email.png" alt="" class="email-icon" />
+          <p class="email-address">info@gmail.com</p>
+        </div>
+      </div>
+      <!-- -------------- contact box end-------------- -->
 
-          <!-- -------------- top header-links -------------- -->
-          <ul class="topHeader-links">
-            <li class="topHeader-link">My account</li>
-            <li class="topHeader-link">Wishlist</li>
-            <li class="topHeader-link">Cart</li>
-            <i class="fa fa-lock fa-1x"></i>
-            <li class="topHeader-link">login/register</li>
-          </ul>
-          <!-- -------------- top header-links end -------------- -->
-        </section>
-        <!--
+      <!-- -------------- top header-links -------------- -->
+      <ul class="topHeader-links">
+        <li class="topHeader-link">My account</li>
+        <li class="topHeader-link">Wishlist</li>
+        <li class="topHeader-link">Cart</li>
+        <i class="fa fa-lock fa-1x"></i>
+        <li class="topHeader-link">login/register</li>
+      </ul>
+      <!-- -------------- top header-links end -------------- -->
+    </section>
+    <!--
       ================================================
                           top header end
       ================================================-->
 
-              <!--
+    <!--
       ================================================
                           nav start
       ================================================-->
-      <nav>
-        <!-- nav logo -->
-        <div class="nav-logo-container">
+    <nav>
+      <!-- nav logo -->
+      <div class="nav-logo-container">
         <img src="./icons/logo.png" alt="" class="nav-logo">
-        </div>
-        <!-- nav links -->
-        <ul class="nav-links">
-          <li class="nav-link"><a href="#">Home</a></li>
-          <li class="nav-link"><a href="#">About us</a></li>
-          <li class="nav-link"><a href="#">Page</a></li>
-          <li class="nav-link"><a href="#">shop</a></li>
-          <li class="nav-link"><a href="#">lock</a></li>
-          <li class="nav-link"><a href="#">Contact us</a></li>
-        </ul>
-        <!-- cart -->
-        <div class='cart-container'>
-          <i class="fa fa-search fa-1x"></i>
-          <p class="cart-text">cart-$<span class="dollar">0</span></p>
-          <img src="./icons/shopingBag.png" class="cart-icon"></img>
-        </div>
-      </nav>
-              <!--
+      </div>
+      <!-- nav links -->
+      <ul class="nav-links">
+        <li class="nav-link"><a href="#">Home</a></li>
+        <li class="nav-link"><a href="#">About us</a></li>
+        <li class="nav-link"><a href="#">Page</a></li>
+        <li class="nav-link"><a href="#">shop</a></li>
+        <li class="nav-link"><a href="#">lock</a></li>
+        <li class="nav-link"><a href="#">Contact us</a></li>
+      </ul>
+      <!-- cart -->
+      <div class='cart-container'>
+        <i class="fa fa-search fa-1x"></i>
+        <p class="cart-text">cart-$<span class="dollar">0</span></p>
+        <img src="./icons/shopingBag.png" class="cart-icon"></img>
+      </div>
+    </nav>
+    <!--
       ================================================
                           nav end
       ================================================-->
 
-      <!--
+    <!--
       ================================================
                           header start 
       ================================================-->
-      <header>
-        <h1 class="header-title">DRESSES <span>ARE</span> GOOD BUT OUR DRESSES ARE <span>BEST</span> </h1>
-        <p class="header-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod voluptas cupiditate provident mollitia, rerum, beatae soluta nulla eveniet enim minima amet, at assumenda itaque sit ducimus tempora inventore maxime architecto.</p>
-        <!-- slide left -->
-        <div class="slide-left">
-          <img src="./icons/slide-left.png" alt="go-left">
-        </div>
-        <!-- slide right -->
-        <div class="slide-right">
-          <img src="./icons/slide-left.png" alt="go-right">
-        </div>
-        <div class='circles'>
-          <div class="circle-1 circle"></div>
-          <div class="circle-2 circle"></div>
-          <div class="circle-3 circle"></div>
-          <div class="circle-4 circle"></div>
-        </div>
-      </header>
-      <!--
+    <header>
+      <h1 class="header-title">DRESSES <span>ARE</span> GOOD BUT OUR DRESSES ARE <span>BEST</span> </h1>
+      <p class="header-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod voluptas cupiditate
+        provident mollitia, rerum, beatae soluta nulla eveniet enim minima amet, at assumenda itaque sit ducimus tempora
+        inventore maxime architecto.</p>
+      <!-- slide left -->
+      <div class="slide-left">
+        <img src="./icons/slide-left.png" alt="go-left">
+      </div>
+      <!-- slide right -->
+      <div class="slide-right">
+        <img src="./icons/slide-left.png" alt="go-right">
+      </div>
+      <div class='circles'>
+        <div class="circle-1 circle"></div>
+        <div class="circle-2 circle"></div>
+        <div class="circle-3 circle"></div>
+        <div class="circle-4 circle"></div>
+      </div>
+    </header>
+    <!--
       ================================================
                           header end 
       ================================================-->
 
-      <!--
+    <!--
       ================================================
                           About start 
       ================================================-->
-      <section class="about">
-        
+    <section class="about">
+      <h1 class="about-title">ABOUT <span>US</span></h1>
+      <section class="about-items">
+        <div class="setting-container about-item">
+          <img src="./icons/setting.png" alt="" class='item-icon'>
+          <h2 class="item-title">SETTING</h2>
+          <p class="item-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus, expedita voluptates
+            ex magnam optio, aut quos hic aliquid animi quae porro! Voluptatibus voluptas sapiente error iure sint
+            eligendi unde ab.</p>
+        </div>
+        <div class="money-back-container about-item">
+          <img src="./icons/mony-back.png" alt="" class='item-icon'>
+          <h2 class="item-title">MONEY BACK</h2>
+          <p class="item-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus, expedita voluptates
+            ex magnam optio, aut quos hic aliquid animi quae porro! Voluptatibus voluptas sapiente error iure sint
+            eligendi unde ab.</p>
+        </div>
+        <div class="world-wide-shipping about-item">
+          <img src="./icons/worldwide.png" alt="" class='item-icon'>
+          <h2 class="item-title">WORLD WIDE SHIPPING</h2>
+          <p class="item-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus, expedita voluptates
+            ex magnam optio, aut quos hic aliquid animi quae porro! Voluptatibus voluptas sapiente error iure sint
+            eligendi unde ab.</p>
+        </div>
+        <div class="world-wide-shipping-2 about-item">
+          <img src="./icons/shiping.png" alt="" class='item-icon'>
+          <h2 class="item-title">WORLD WIDE SHIPPING</h2>
+          <p class="item-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus, expedita voluptates
+            ex magnam optio, aut quos hic aliquid animi quae porro! Voluptatibus voluptas sapiente error iure sint
+            eligendi unde ab.</p>
+        </div>
       </section>
-      <!--
+    </section>
+    <!--
       ================================================
                           About end 
       ================================================-->
 
-      <!--
+    <!--
       ================================================
-                          review start 
+                          collection start 
+      ================================================-->
+    <section class="collection">
+      <!-- collection header -->
+      <h3 class="collection-title"><span>NEW</span> COLLECTION</h3>
+
+      <section class="collection-items">
+        <!-- item1 -->
+        <div class="collection-item">
+          <!-- item action -->
+          <div class="item-actions">
+            <div class="item-action-icons">
+              <div class="action-icon">
+                <img src="./icons/heart.png" alt="">
+              </div>
+              <div class="action-icon">
+                <img src="./icons/arrows.png" alt="">
+              </div>
+              <div class="action-icon">
+                <img src="./icons/time.png" alt="">
+              </div>
+            </div>
+            <div class="add-to-cart">
+              <img src="./icons/cart.png" alt="">
+              <p class="add-to-cart-text">ADD TO CART</p>
+            </div>
+          </div>
+
+          <div class='item-details-container'>
+            <p class="item-name">BLUE T-SHIRT</p>
+            <div class="item-price-container">
+              <p class="price">32$</p>
+            </div>
+          </div>
+        </div>
+        <!-- item2 -->
+        <div class="collection-item">
+          <!-- item action -->
+          <div class="item-actions">
+            <div class="item-action-icons">
+              <div class="action-icon">
+                <img src="./icons/heart.png" alt="">
+              </div>
+              <div class="action-icon">
+                <img src="./icons/arrows.png" alt="">
+              </div>
+              <div class="action-icon">
+                <img src="./icons/time.png" alt="">
+              </div>
+            </div>
+            <div class="add-to-cart">
+              <img src="./icons/cart.png" alt="">
+              <p class="add-to-cart-text">ADD TO CART</p>
+            </div>
+          </div>
+
+          <div class='item-details-container'>
+            <p class="item-name">BLUE T-SHIRT</p>
+            <div class="item-price-container">
+              <p class="price">32$</p>
+            </div>
+          </div>
+        </div>
+        <!-- item3 -->
+        <div class="collection-item">
+          <!-- item action -->
+          <div class="item-actions">
+            <div class="item-action-icons">
+              <div class="action-icon">
+                <img src="./icons/heart.png" alt="">
+              </div>
+              <div class="action-icon">
+                <img src="./icons/arrows.png" alt="">
+              </div>
+              <div class="action-icon">
+                <img src="./icons/time.png" alt="">
+              </div>
+            </div>
+            <div class="add-to-cart">
+              <img src="./icons/cart.png" alt="">
+              <p class="add-to-cart-text">ADD TO CART</p>
+            </div>
+          </div>
+
+          <div class='item-details-container'>
+            <p class="item-name">BLUE T-SHIRT</p>
+            <div class="item-price-container">
+              <p class="price">32$</p>
+            </div>
+          </div>
+        </div>
+        <!-- item4 -->
+        <div class="collection-item">
+
+          <!-- item action -->
+          <div class="item-actions">
+            <div class="item-action-icons">
+              <div class="action-icon">
+                <img src="./icons/heart.png" alt="">
+              </div>
+              <div class="action-icon">
+                <img src="./icons/arrows.png" alt="">
+              </div>
+              <div class="action-icon">
+                <img src="./icons/time.png" alt="">
+              </div>
+            </div>
+            <div class="add-to-cart">
+              <img src="./icons/cart.png" alt="">
+              <p class="add-to-cart-text">ADD TO CART</p>
+            </div>
+          </div>
+
+          <div class='item-details-container'>
+            <p class="item-name">BLUE T-SHIRT</p>
+            <div class="item-price-container">
+              <p class="price">32$</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!--
+      ================================================
+                          collection end 
       ================================================-->
 
-      <!--
+    <!--
       ================================================
-                          review end 
+                          offer start 
+      ================================================-->
+    <section class="offer">
+      <h4 class="offer-header">SAVE UP TO 40% OFF</h4>
+      <p class="offer-desc">DON'T FORGET TO BUY</p>
+    </section>
+    <!--
+      ================================================
+                          offer end 
       ================================================-->
 
-      <!--
+    <!--
       ================================================
-                          gallery start 
+                          our product start 
+      ================================================-->
+      <section class="collection">
+      <!-- collection header -->
+      <h3 class="collection-title"><span>OUR</span> PRODUCT</h3>
+
+      <section class="collection-items">
+        <!-- item1 -->
+        <div class="collection-item">
+          <!-- item action -->
+          <div class="item-actions">
+            <div class="item-action-icons">
+              <div class="action-icon">
+                <img src="./icons/heart.png" alt="">
+              </div>
+              <div class="action-icon">
+                <img src="./icons/arrows.png" alt="">
+              </div>
+              <div class="action-icon">
+                <img src="./icons/time.png" alt="">
+              </div>
+            </div>
+            <div class="add-to-cart">
+              <img src="./icons/cart.png" alt="">
+              <p class="add-to-cart-text">ADD TO CART</p>
+            </div>
+          </div>
+
+          <div class='item-details-container'>
+            <p class="item-name">BLUE T-SHIRT</p>
+            <div class="item-price-container">
+              <p class="price">32$</p>
+            </div>
+          </div>
+        </div>
+        <!-- item2 -->
+        <div class="collection-item">
+          <!-- item action -->
+          <div class="item-actions">
+            <div class="item-action-icons">
+              <div class="action-icon">
+                <img src="./icons/heart.png" alt="">
+              </div>
+              <div class="action-icon">
+                <img src="./icons/arrows.png" alt="">
+              </div>
+              <div class="action-icon">
+                <img src="./icons/time.png" alt="">
+              </div>
+            </div>
+            <div class="add-to-cart">
+              <img src="./icons/cart.png" alt="">
+              <p class="add-to-cart-text">ADD TO CART</p>
+            </div>
+          </div>
+
+          <div class='item-details-container'>
+            <p class="item-name">BLUE T-SHIRT</p>
+            <div class="item-price-container">
+              <p class="price">32$</p>
+            </div>
+          </div>
+        </div>
+        <!-- item3 -->
+        <div class="collection-item">
+          <!-- item action -->
+          <div class="item-actions">
+            <div class="item-action-icons">
+              <div class="action-icon">
+                <img src="./icons/heart.png" alt="">
+              </div>
+              <div class="action-icon">
+                <img src="./icons/arrows.png" alt="">
+              </div>
+              <div class="action-icon">
+                <img src="./icons/time.png" alt="">
+              </div>
+            </div>
+            <div class="add-to-cart">
+              <img src="./icons/cart.png" alt="">
+              <p class="add-to-cart-text">ADD TO CART</p>
+            </div>
+          </div>
+
+          <div class='item-details-container'>
+            <p class="item-name">BLUE T-SHIRT</p>
+            <div class="item-price-container">
+              <p class="price">32$</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <!--
+      ================================================
+                          our product end 
+      ================================================-->
+ 
+    <!--
+      ================================================
+                          our product start 
       ================================================-->
 
-      <!--
+    <!--
       ================================================
-                          gallery end 
+                          our product end 
       ================================================-->
+  </main>
+  <!-- ******** content end ******** -->
+</body>
 
-      <!--
-      ================================================
-                          footer start 
-      ================================================-->
-
-      <!--
-      ================================================
-                          footer end 
-      ================================================-->
-    </main>
-    <!-- ******** content end ******** -->
-  </body>
 </html>
 <!-- coded by Azka norouzi -->

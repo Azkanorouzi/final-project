@@ -15,12 +15,16 @@
 /* ========================== */
 @import './header.css';
 /* ========================== */
-     /* defaults STYLES */
+     /* about STYLES */
 /* ========================== */
 @import './about.css';
 /* ========================== */
-     /* defaults STYLES */
-@import './utilities.css';
+     /* collection STYLES */
+/* ========================== */
+@import './collection.css';
+/* ========================== */
+     /* offer STYLES */
+@import './offer.css';
 /* ========================== */
      /* image gallery STYLES */
 /* ========================== */

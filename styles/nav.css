@@ -1,36 +1,36 @@
 /* nav bar styles */
-nav{
- height:90px;
- width: 100%;
- background-color:white;
- display: flex;
- align-items: center;
- justify-content: space-around;
+nav {
+  height: 90px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 /* nav-links */
-.nav-links{
- margin-left: 30vw;
+.nav-links {
+  margin-left: 30vw;
 }
-.nav-link{
- display: inline-block;
- margin: 0 1rem;
+.nav-link {
+  display: inline-block;
+  margin: 0 1rem;
 }
-.nav-link>a{
+.nav-link > a {
   text-decoration: none;
- color: black;
- font-weight: 700;
+  color: black;
+  font-weight: 700;
 }
-.nav-link>a:hover{
- color: #00a2e8;
+.nav-link > a:hover {
+  color: #00a2e8;
 }
 /* cart */
-.cart-container{
- display: flex;
- align-items: center;
- justify-content: space-around;
- width: 150px;
+.cart-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 150px;
 }
-.cart-icon{
- width: 30px;
+.cart-icon {
+  width: 30px;
 }
 /* ------------ nav links and toggle end ------------- */
