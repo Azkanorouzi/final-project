@@ -1,0 +1,70 @@
+@media screen and (max-width: 600px){
+ /* top header */
+ /* nav */
+ .nav-logo{
+  margin: 0 !important;
+  margin-left: 70px !important;
+ }
+ .cart-container{
+  position: relative;
+  left: 30px;
+ }
+ .toggle{
+  position:relative;
+  right:90px;
+ }
+ .nav-links{
+  top: 290px !important;
+ }
+ /* header */
+ header .header-title{
+  font-size: 1.5rem !important;
+  width: 320px;
+ }
+ header .header-description{
+ width: 80vw;
+ font-size: 15px;
+ }
+}
+@media screen and (max-width: 400px){
+ .top-header{
+  height: 200px !important;
+ }
+ .contact-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+ }
+ .email-icon{
+  margin: 0;
+  margin-right: 5px;
+ }
+ .topHeader-links{
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 30px;
+ }
+ .fa-lock{
+  display: none!important;
+ }
+ .slide-right,.slide-left{
+  width: 50px !important;
+  height: 50px !important;
+ }
+ /* collection */
+ .collection{
+  height: 1400px!important;
+ }
+ .collection-items{
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ }
+ .collection-title{
+  font-size: 2rem;
+  word-spacing: 0px !important;
+ }
+ /* offer header */
+}

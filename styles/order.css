@@ -1,0 +1,52 @@
+/* ------------- order -------------- */
+.order{
+ height: 630px;
+ background: url(images/order-backgorund.png),linear-gradient(#378cc4,#378cc4);
+ background-size:cover;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ position: relative;
+ overflow: hidden;
+}
+.order-title{
+ font-size: 40px;
+ color: #56504d;
+ margin-bottom: 5rem;
+}
+.order-title>span{
+ color: white;
+}
+/* form */
+.order-form{
+ display: flex;
+ flex-direction: column;
+ justify-content:center;
+}
+.order-input{
+ margin: 1rem 0;
+ height:60px;
+ width: 540px;
+ padding-left:2rem ;
+ border-radius: .5rem;
+ border: none;
+ background: rgba(255, 255, 255, 0.692);
+}
+.order-btn{
+ width: 300px;
+ height: 90px;
+ margin: 0 auto;
+ background: #786960be;
+ border: none;
+ border-radius: .5rem;
+  color: white;
+ font-size: 2rem;
+ margin-top: 2rem;
+ transition: all .5s;
+}
+.order-btn:hover{
+ color:#378cc4 ;
+ background: white;
+}
+/* ------------- order end -------------- */

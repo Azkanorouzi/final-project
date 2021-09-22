@@ -1,3 +1,59 @@
 /* ------------- reviews -------------- */
+.reviews{
+ height: 950px;
+ background: white;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+}
+.reviews-title{
+ font-size: 50px;
+ margin-bottom: 10rem;
+}
+.reviews-title>span{
+ color: #378cc4;
+}
+.review-image{
+ width: 225px;
+ height: 225px;
+ border-radius: 50%;
+ background: #736b66;
+ margin-bottom: 2rem;
+}
+.review{
+ margin: 0 2rem;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+.review-container{
+ display: flex;
+ text-align: center;
+ justify-content:space-evenly;
+}
+.reviewer-name{
+ color: #378cc4;
+}
+.review-score{
+ width: 100%;
+ height: 100px;
+ display: flex;
+ justify-content:center;
+ align-items:center;
+}
+.review-circle{
+ height: 32px;
+ width: 32px;
+ background:#378cc4 ;
+ border-radius: 50%;
+ margin: 0 .3rem;
+ border: 3px solid black;
+}
+/* color overlay */
+.review-score>.review-circle:nth-last-child(1){
+ background: transparent;
+}
 
 /* ------------- reviews end -------------- */

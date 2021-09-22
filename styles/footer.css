@@ -1,3 +1,90 @@
 /* ------------- Footer -------------- */
+footer{
+ height: 650px;
+ background: url(images/world-map.png),linear-gradient(#313132,#313132);
+ background-size: cover;
+ background-repeat: no-repeat;
+ position:relative;
+ display: flex;
+ align-items: center;
+}
+/* color overlay */
+footer::after{
+ content:"";
+ background: #313132e7;
+ width: 100%;
+ height: 100%;
+ top: 0;
+ position: absolute;
+}
+.allright-reserved{
+ position: absolute;
+ bottom: 0;
+ width: 100%;
+ background: black;
+ z-index: 1;
+ color: white;
+ height: 60px;
+ display: flex;
+ justify-content: center;
+ align-items: flex-end;
+ padding-bottom: .5rem;
+}
+.footer-form,.footer-content{
+ z-index: 5;
+}
+/* footer content */
+.footer-content{
+width: 30%;
+text-align: left;
+margin-left: 10rem;
+ margin-bottom: 10rem;
+ color:white;
+}
+.footer-logo{
+ margin-bottom: 5rem;
+}
 
+.footer-title{
+ margin-bottom: 2rem;
+}
+.footer-desc{
+ margin-bottom: 8rem;
+}
+/* social-icons */
+.social-icons{
+display: flex;
+justify-content: space-around;
+width: 50%;
+}
+/* footer form */
+.footer-form{
+ width: 80%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+.footer-input{
+ height: 60px;
+ width: 255px;
+ margin: 0 1rem;
+ font-size: 1.5rem;
+ padding:0 1rem;
+}
+.footer-textArea{
+padding: 1rem;
+font-size: 1.5rem;
+margin-top: 2rem;
+}
+.footer-btn{
+ margin-top: 2rem;
+ position: relative;
+ left: 200px;
+ width: 130px;
+ height: 50px;
+ background:#378cc4;
+ border:none;
+ color: white;
+}
 /* ------------- Footer end -------------- */

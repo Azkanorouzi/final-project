@@ -1,0 +1,19 @@
+/* ---------- Improve-dressing ---------- */
+.Improve-dressing{
+ height: 300px;
+ background: black;
+ color: white;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+.Improve-dressing-title{
+ font-size: 50px;
+ word-spacing: 1rem;
+ margin-bottom: 2.5rem;
+}
+.Improve-dressing-desc{
+ font-size: 1.7rem;
+}
+/* ---------- Improve-dressing end---------- */

@@ -1,3 +1,67 @@
-@media screen and (min-width: 942px){
- 
+@media screen and (max-width: 1200px){
+ .topHeader-links{
+  margin-left: 0px !important;
+ }
+ .nav-logo{
+  margin-left:2vw;
+ }
+ .nav-links{
+  margin-left: 0;
+ }
+ .header-title{
+  font-size: 25px !important;
+  line-height: 3rem !important;
+ }
+ .header-description{
+  width: 500px;
+  margin-top: 10px;
+ }
+ /* about */
+ .about-items{
+  flex-direction: column !important;
+ }
+ .about-item{
+  margin-bottom: 3rem;
+ }
+ .about{
+  height:unset;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+ }
+ /* collection */
+ .collection-item{
+ height: 250px !important;
+ width: 175px !important;
+ }
+ .item-name{
+  font-size: 12px;
+ }
+ .our-product .collection-item{
+  height : 300px !important;
+  width: 205px !important;
+  bottom: 250px;
+ }
+ /* review */
+ .review-image{
+  width: 180px !important;
+  height: 180px !important;
+ }
+ /* footer */
+ .footer-desc{
+  margin-bottom: 20px !important;
+ }
+ .footer-logo{
+  margin-bottom: 20px !important;
+ }
+ .footer-content{
+  margin-bottom: 20px !important;
+  margin-left: 20px !important;
+  margin-bottom: 90px!important;
+ }
+ .footer-form{
+  margin-left: 10vw ;
+ }
+ .top-header{
+  flex-wrap: wrap;
+ }
 }

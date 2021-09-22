@@ -1,0 +1,97 @@
+@media screen and (max-width:768px){
+ /* nav */
+ nav{
+  justify-content: center;
+  overflow: visible;
+ }
+
+ .nav-logo{
+  margin-right: 80px;
+ }
+ /* toggle */
+ .toggle{
+  transition: all .5s;
+  margin-left: 160px;
+ }
+ /* nav links */
+ .nav-links{
+  position: absolute;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  right: 0;
+  top: 190px;
+  height:0px;
+  padding: 0px;
+  z-index: 1;
+  background: white;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  text-align:center;
+  overflow: hidden;
+ }
+ .nav-links-open{
+  height: unset;
+  padding: 30px;
+  border: 2px solid #00a2e8;
+  border-top: none;
+ }
+ .nav-link{
+  margin-bottom: 20px;
+ }
+  .nav-link:hover>a{
+   color: black;
+  }
+ .nav-link>a{
+  color: #00a2e8;
+  text-decoration: none;
+  font-size: 25px;
+  margin-bottom: 10px;
+ }
+ /* collection */
+ .collection{
+  height: 800px
+ }
+ .collection-items{
+  flex-wrap: wrap;
+ }
+ .collection-item{
+  margin-bottom: 20px;
+ }
+ .our-product{
+  height: 1500px;
+ }
+ .our-product .collection-items{
+  bottom: 0;
+  height: 100%;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+ }
+ .our-product .collection-item{
+  width: 80vw !important;
+ }
+  /* review */
+ .review-container{
+  flex-direction: column;
+ }
+ .reviews{
+  height: unset;
+  padding:200px 0;
+ }
+ .order-input{
+  width: 280px;
+ }
+ .order-btn{
+  width: 280px;
+  height: 40px;
+  font-size: 1rem;
+ }
+ /* improve dressing title */
+ .Improve-dressing-title{
+ font-size: 25px;
+ }
+ .Improve-dressing-desc{
+  font-size: 15px;
+ }
+}

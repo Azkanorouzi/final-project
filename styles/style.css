@@ -26,17 +26,23 @@
      /* offer STYLES */
 @import './offer.css';
 /* ========================== */
-     /* image gallery STYLES */
+     /* our product STYLES */
 /* ========================== */
-@import './image-gallery.css';
+@import './ourproduct.css';
 /* ========================== */
-     /* footer STYLES */
+     /* order STYLES */
 /* ========================== */
-@import './footer.css';
+@import './order.css';
 /* ========================== */
      /* review STYLES */
 /* ========================== */
 @import './reviews.css';
+     /* Improve-dressing STYLES */
+/* ========================== */
+@import './Improve-dressing.css';
+     /* footer STYLES */
+/* ========================== */
+@import './footer.css';
 /* ========================== */
      /* Fonts */
 /* ========================== */
@@ -45,6 +51,14 @@
 /*******************************/
      /* Media queries */
 /*******************************/
+/* ========================== */
+/* tablet screen size devices (768px And more) */
+/* ========================== */
+@import url('media-queries/mobile.css');
+/* ========================== */
+/* tablet screen size devices (768px And more) */
+/* ========================== */
+@import url('media-queries/tablet.css');
 /* ========================== */
 /* Medium screen size devices (768px And more) */
 /* ========================== */

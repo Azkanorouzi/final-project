@@ -7,6 +7,20 @@ nav {
   align-items: center;
   justify-content: space-around;
 }
+.cart-icon {
+  width: 30px;
+}
+.cart-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 150px;
+}
+@media screen and (min-width: 768px) {
+  /* toggle */
+  .toggle{
+    display: none;
+  }
 /* nav-links */
 .nav-links {
   margin-left: 30vw;
@@ -23,14 +37,8 @@ nav {
 .nav-link > a:hover {
   color: #00a2e8;
 }
-/* cart */
-.cart-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  width: 150px;
+
+
 }
-.cart-icon {
-  width: 30px;
-}
+
 /* ------------ nav links and toggle end ------------- */
